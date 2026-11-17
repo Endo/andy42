@@ -3,64 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pitú con el pase orientado</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&display=swap" rel="stylesheet">
+  <title>Andy42 · Movilidad y autos en Costa Rica</title>
+  <meta name="description" content="Andy42 desarrolla Zona EV, el mapa de cargadores para vehículos eléctricos en Costa Rica, y una plataforma para comprar y vender autos.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Confetti easter egg: two radios swap so every click replays the burst -->
-  <input type="radio" name="party" id="party-a" class="party-toggle">
-  <input type="radio" name="party" id="party-b" class="party-toggle">
-
-  <div class="pitch" aria-hidden="true"></div>
-
-  <header>
-    <h1 aria-label="Pitú con el pase orientado">
-      <span>P</span><span>i</span><span>t</span><span>ú</span>
-      <span class="gap"></span>
-      <span>c</span><span>o</span><span>n</span>
-      <span class="gap"></span>
-      <span>e</span><span>l</span>
-      <span class="gap"></span>
-      <span class="accent"><span>p</span><span>a</span><span>s</span><span>e</span>
-      <span class="gap"></span>
-      <span>o</span><span>r</span><span>i</span><span>e</span><span>n</span><span>t</span><span>a</span><span>d</span><span>o</span></span>
-    </h1>
+  <header class="top">
+    <span class="brand"><span class="mark" aria-hidden="true">⚡</span>Andy42</span>
+    <a class="mail" href="mailto:contacto@andy42.com">contacto@andy42.com</a>
   </header>
 
   <main>
-    <figure class="photo">
-      <img src="andy.jpg" alt="Pitú" width="739" height="1600">
-    </figure>
+    <section class="hero">
+      <h1>Movilidad eléctrica y autos en Costa Rica</h1>
+      <p class="lead">Andy42 es un proyecto costarricense que desarrolla herramientas para conductores: dónde cargar un carro eléctrico, si el cargador funciona y cómo se paga; y, próximamente, un lugar para comprar y vender autos.</p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h2>Zona EV</h2>
+        <p>Mapa de cargadores públicos del país con su estado en vivo, conectores, potencia, cómo llegar y cómo pagar. Los conductores confirman si un cargador funciona y ayudan a mantener la información al día.</p>
+        <span class="tag">En pruebas</span>
+      </article>
+      <article class="card">
+        <h2>Autos</h2>
+        <p>Plataforma para publicar y buscar autos en Costa Rica, con precios de referencia del mercado y búsqueda sencilla.</p>
+        <span class="tag">En desarrollo</span>
+      </article>
+    </section>
+
+    <section class="contact">
+      <h2>Contacto</h2>
+      <p>Correo: <a href="mailto:contacto@andy42.com">contacto@andy42.com</a><br>San José, Costa Rica</p>
+    </section>
   </main>
 
-  <!-- The secret dot -->
-  <label for="party-a" class="dot dot-a" title=""></label>
-  <label for="party-b" class="dot dot-b" title=""></label>
-
-  <div class="confetti" aria-hidden="true">
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-  </div>
-
-  <!-- The cat, peeking from the bottom corner -->
-  <div class="cat" aria-hidden="true">
-    <div class="ear left"></div>
-    <div class="ear right"></div>
-    <div class="head">
-      <div class="eye left"></div>
-      <div class="eye right"></div>
-      <div class="nose"></div>
-      <div class="mouth"></div>
-      <div class="whiskers left"></div>
-      <div class="whiskers right"></div>
-    </div>
-    <div class="paw left"></div>
-    <div class="paw right"></div>
-  </div>
+  <footer>
+    <span>© 2026 Andy42 · Costa Rica</span>
+    <a href="privacidad.html">Política de privacidad</a>
+  </footer>
 </body>
 </html>
